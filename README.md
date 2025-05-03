@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SenseAi - Your Personalized Career Agent 🤖💼
 
-## Getting Started
+Welcome to **SenseAi**, a smart and intuitive Career Agent platform designed to guide users in making informed decisions about their career paths. Whether you're a student exploring options or a professional considering a switch, SenseAi offers personalized recommendations, skill-gap analysis, and real-time mentorship tools to help you succeed.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎯 **Career Path Recommendation** based on user profile, interests, and skillset
+- 📊 **Skill Gap Analysis** for reaching your target role
+- 🤝 **Mentor Matching** with industry professionals
+- 📚 **Course & Resource Suggestions** (MOOCs, articles, certifications)
+- 🧠 **AI Chat Assistant** for real-time career guidance
+- 📝 **Resume Feedback & Interview Tips**
+- 🔒 **User Authentication & Secure Profiles**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Frontend:
+- React.js / Next.js
+- Tailwind CSS / SASS
+- Framer Motion (for animations)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Backend:
+- Node.js
+- Express.js
+- Prisma
+- Neon DB
+- JWT Authentication
 
-## Learn More
+### AI & ML:
+- Gemini API
+- NLP for analyzing user inputs and queries
 
-To learn more about Next.js, take a look at the following resources:
+### Tools & Deployment:
+- Vite.js / Webpack
+- Postman (for API testing)
+- Render / Vercel / Netlify (for hosting)
+- Git & GitHub (Version Control)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
